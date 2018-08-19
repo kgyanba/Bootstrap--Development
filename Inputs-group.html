@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>inputs-group</title>
+</head>
+<body>
+
+<!--Bootstrap-->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/mdb.min.css">
+
+<!--prepend-->
+<h2>prepend example</h2>
+<div class="input-group m-3">
+    <div class="input-group-prepend">
+        <span class="input-group-text bg-danger text-white" id="basic-addon1">@
+            <i class="fa fa-user-circle"></i>
+        </span>
+    </div>
+    <input type="text" placeholder="username" class="form-control-lg bg-light text-white">
+</div>
+<br><br>
+
+<!--Append-->
+<h2>Append example</h2>
+<div class="input-group m-3">
+<input type="text" placeholder="username" class="form-control-lg bg-light text-white">
+    <div class="input-group-append">
+        <span class="input-group-text bg-success text-white" id="basic-abandon2">@gmail.com</span>
+    </div>
+</div>
+<br><br>
+
+<!--Both-->
+<h2>Both example</h2>
+<div class="input-group m-3">
+    <div class="input-group-prepend">
+        <span class="input-group-text bg-light">@</span>
+    </div>
+    <input type="text" placeholder="username" class="form-control-lg bg-light">
+    <div class="input-group-append">
+        <span class="input-group-text bg-light tet-white">@gmail.com</span>
+    </div>
+</div>
+<br><br>
+
+<!--Sizing-->
+<h2>Sizing example</h2>
+<div class=" input-group input-group-sm m-3">
+    <div class="input-group-prepend">
+        <span class="input-group-text bg-light">small</span>
+    </div>
+    <input type="text" class="form-control-sm bg-light" placeholder="username">
+</div>
+<br>
+<div class="input-group m-3">
+    <div class="input-group-prepend">
+        <span class="input-group-text bg-light">Default</span>
+    </div>
+    <input type="text" class="form-control-lg bg-light" placeholder="username">
+</div>
+<br>
+<div class="input-group input-group-lg m-3">
+    <div class="input-group-prepend">
+        <span class="input-group-text bg-light">Large</span>
+    </div>
+    <input class="form-control-lg bg-light" placeholder="username">
+</div>
+<br>
+
+<!--Multiple input-->
+<h2>Multiple input example</h2>
+<div class="input-group">
+    <div class="input-group-prepend">
+        <span class="input-group-text bg-dark text-white">First and Last</span>
+    </div>
+    <input type="text" class="form-control-lg bg-light b-1">
+    <input type="text" class="form-control-lg bg-light b-1">
+</div>
+
+<!--optional javascript-->
+<script src="js/popper.min.js"></script>
+<script src="js/mdb.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
